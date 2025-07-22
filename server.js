@@ -5,7 +5,6 @@ import { query } from "./db/index.js";
 // import dotenv from "dotenv";
 // dotenv.config();
 
-
 const port = process.env.PORT || 3000;
 console.log(process.env.PG_URI);
 
